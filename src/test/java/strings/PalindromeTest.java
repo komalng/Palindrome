@@ -12,4 +12,7 @@ public class PalindromeTest {
     @Test public void emptyStringShouldBeAPalindrome() {
         assertTrue("Expected empty string to be a palindrome", PalindromeChecker.isPalindrome(""));
     }
+    @Test public void aCharacterShouldBeAPalindrome(){
+        assertTrue("A character string to be a palindrome", PalindromeChecker.isPalindrome("o"));
+    }
 }
