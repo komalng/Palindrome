@@ -18,4 +18,7 @@ public class PalindromeTest {
     @Test public void stringShouldBeSameViceVersa(){
         assertTrue("String to be Palindrome",PalindromeChecker.isPalindrome("nitin"));
     }
+    @Test public void stringShouldNotBeAPalindrome(){
+        assertFalse("String not to be Palindrome",PalindromeChecker.isPalindrome("komal"));
+    }
 }
