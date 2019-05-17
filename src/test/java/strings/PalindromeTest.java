@@ -15,4 +15,7 @@ public class PalindromeTest {
     @Test public void aCharacterShouldBeAPalindrome(){
         assertTrue("A character string to be a palindrome", PalindromeChecker.isPalindrome("o"));
     }
+    @Test public void stringShouldBeSameViceVersa(){
+        assertTrue("String to be Palindrome",PalindromeChecker.isPalindrome("nitin"));
+    }
 }
